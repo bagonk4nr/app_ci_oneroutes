@@ -61,3 +61,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+
+Full Video : https://youtu.be/hT0EUih8vsk
+
+Zend Framework 3 Full Video : https://youtu.be/23iP6wbJ7s0
