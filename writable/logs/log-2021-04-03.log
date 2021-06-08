@@ -1,0 +1,95 @@
+CRITICAL - 2021-04-03 00:02:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\AppServ\www\one-router-panelv\app\Views\incl\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\AppServ\\www\\...', 26, Array)
+#1 C:\AppServ\www\one-router-panelv\app\Views\main.php(25): require('C:\\AppServ\\www\\...')
+#2 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\AppServ\\www\\...')
+#3 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('main', Array, true)
+#5 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(189): view('main', Array)
+#6 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(79): Config\AutoRoutes->toRoutesPost()
+#7 C:\AppServ\www\one-router-panelv\app\Config\Routes.php(57): Config\AutoRoutes->toRoute()
+#8 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\AppServ\\www\\...')
+#9 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#10 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\AppServ\www\one-router-panelv\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\AppServ\\www\\...')
+#13 {main}
+CRITICAL - 2021-04-03 00:05:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\AppServ\www\one-router-panelv\app\Views\incl\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\AppServ\\www\\...', 26, Array)
+#1 C:\AppServ\www\one-router-panelv\app\Views\main.php(25): require('C:\\AppServ\\www\\...')
+#2 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\AppServ\\www\\...')
+#3 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('main', Array, true)
+#5 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(189): view('main', Array)
+#6 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(79): Config\AutoRoutes->toRoutesPost()
+#7 C:\AppServ\www\one-router-panelv\app\Config\Routes.php(57): Config\AutoRoutes->toRoute()
+#8 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\AppServ\\www\\...')
+#9 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#10 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\AppServ\www\one-router-panelv\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\AppServ\\www\\...')
+#13 {main}
+CRITICAL - 2021-04-03 00:07:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\AppServ\www\one-router-panelv\app\Views\incl\navbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\AppServ\\www\\...', 26, Array)
+#1 C:\AppServ\www\one-router-panelv\app\Views\main.php(25): require('C:\\AppServ\\www\\...')
+#2 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\AppServ\\www\\...')
+#3 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('main', Array, true)
+#5 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(189): view('main', Array)
+#6 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(79): Config\AutoRoutes->toRoutesPost()
+#7 C:\AppServ\www\one-router-panelv\app\Config\Routes.php(57): Config\AutoRoutes->toRoute()
+#8 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\AppServ\\www\\...')
+#9 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#10 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\AppServ\www\one-router-panelv\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\AppServ\\www\\...')
+#13 {main}
+CRITICAL - 2021-04-03 00:14:30 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 00:15:23 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 00:16:29 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 00:17:54 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 00:41:42 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 00:43:14 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 00:43:50 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 04:56:32 --> CodeIgniter\View\View::main(): Failed opening required '' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 08:29:15 --> cURL error 7: Failed to connect to 127.0.0.1 port 8081: Connection refused (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for http://127.0.0.1:8081/reports
+#0 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Middleware.php(63): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Client.php(331): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Client.php(168): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\AppServ\www\one-router-panelv\vendor\guzzlehttp\guzzle\src\Client.php(187): GuzzleHttp\Client->requestAsync('POST', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\AppServ\www\one-router-panelv\app\Config\RestApi.php(96): GuzzleHttp\Client->request('POST', 'http://127.0.0....', Array)
+#14 C:\AppServ\www\one-router-panelv\app\Config\AutoRoutes.php(110): Config\RestApi->report('pdf')
+#15 C:\AppServ\www\one-router-panelv\app\Config\Routes.php(57): Config\AutoRoutes->toRoute()
+#16 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\AppServ\\www\\...')
+#17 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#18 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 C:\AppServ\www\one-router-panelv\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#20 C:\AppServ\www\one-router-panelv\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\AppServ\\www\\...')
+#21 {main}
+CRITICAL - 2021-04-03 08:33:42 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

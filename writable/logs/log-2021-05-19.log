@@ -1,0 +1,43 @@
+CRITICAL - 2021-05-19 03:15:36 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/spark(53): require('/run/media/bagu...')
+#2 {main}
+CRITICAL - 2021-05-19 03:15:36 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php:880
+Stack trace:
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php(163): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php(1180): CodeIgniter\CLI\CLI::init()
+#2 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(294): include_once('/run/media/bagu...')
+#3 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-19 03:16:18 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/spark(53): require('/run/media/bagu...')
+#2 {main}
+CRITICAL - 2021-05-19 03:16:18 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php:880
+Stack trace:
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php(163): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php(1180): CodeIgniter\CLI\CLI::init()
+#2 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(294): include_once('/run/media/bagu...')
+#3 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-19 03:25:26 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/spark(53): require('/run/media/bagu...')
+#2 {main}
+CRITICAL - 2021-05-19 03:25:26 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php:880
+Stack trace:
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php(163): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/CLI/CLI.php(1180): CodeIgniter\CLI\CLI::init()
+#2 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(294): include_once('/run/media/bagu...')
+#3 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-19 03:35:00 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/vendor/codeigniter4/framework/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 /run/media/bagus/2AF0ED25F0ECF849/AppServ/02052021/www/one-router-panelv/spark(53): require('/run/media/bagu...')
+#2 {main}
